@@ -1,11 +1,12 @@
 #include <iostream>
 #include <conio.h>
+#include <iomanip>
 
 using namespace std;
 int main()
 {
 	char x;
-	int y,z;
+	double y,z;
 	cout <<"Which package did you purchased?" <<endl;
 	cin >> x;
 
@@ -24,7 +25,7 @@ int main()
 			else
 				{
 				z= (995+((y-10)*20));
-				cout <<"The total amount due is: P" << z<<".00";
+				cout <<"The total amount due is: P" << fixed << showpoint << setprecision (2) <<z;
 				}
 			break;
 		case ('B'):
@@ -40,7 +41,7 @@ int main()
 			else
 				{
 				z= (1495+((y-20)*10));
-				cout <<"The total amount due is: P" << z<<".00";
+				cout <<"The total amount due is: P" << fixed << showpoint << setprecision (2) <<z;
 				}
 				break;
 		case ('C'):
