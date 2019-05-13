@@ -52,6 +52,6 @@ main ()
 		cin >> y;  	
       		cout << fixed << showpoint << setprecision (2) << "V = "<< x+y+z;
     }
-getch();
+_getch();
 return 0;
 }

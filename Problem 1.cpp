@@ -47,13 +47,13 @@ int main()
 		case ('C'):
 		case ('c'):
 				cout <<"Package C: For P1995/mo of unlimited access is provided. \n";
-				z=1945;
+				z=1995;
 				cout <<"The total amount due is: P" << z<<".00";
 				break;
 		default:
 			cout << "INVALID";
 		break;	
 		}
-	getch();
+	_getch();
 	return 0;
 } 

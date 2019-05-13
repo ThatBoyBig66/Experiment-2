@@ -29,6 +29,6 @@ int main()
 		cout <<i<< ", ";
 		}
 	}
-	getch();
+	_getch();
 	return 0;
 }

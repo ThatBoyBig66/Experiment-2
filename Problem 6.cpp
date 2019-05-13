@@ -30,6 +30,6 @@ do
 } 
 while (!userquit);
 	
-	getch();
+	_getch();
 	return 0;
 }

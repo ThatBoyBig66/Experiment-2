@@ -21,6 +21,6 @@ int main()
     {
     cout <<"Your bill is: P " <<fixed << showpoint << setprecision (2) << (35+(x*1.10)+(y*1.10));
 	}
- 	getch();
+ 	_getch();
     return 0;
 }
